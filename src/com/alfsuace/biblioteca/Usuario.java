@@ -1,4 +1,4 @@
-package com.alfsuace.biblioteca.assets;
+package com.alfsuace.biblioteca;
 
 public class Usuario {
     //-id: Integer
