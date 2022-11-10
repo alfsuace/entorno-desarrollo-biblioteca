@@ -10,21 +10,12 @@ public class Book {
     //-autor: List<Autor>
     //-genero: LIST<Genero>
     //-fechaPublicación: String
-
-    private Integer id;
     private String title;
     private String isbn;
     private String releaseDate;
     private Author author;
     private List<Genre> genre = new ArrayList<>();
 
-    public void setId (Integer id) {
-        this.id = id;
-    }
-
-    public Integer getId () {
-        return id;
-    }
 
     public void setTitle (String title) {
         this.title = title;
@@ -63,4 +54,9 @@ public class Book {
     public Author getAuthor () {
         return author;
     }
+
+    public void setGenre (List<Genre> genre) {
+        this.genre = genre;
+    }
+
 }

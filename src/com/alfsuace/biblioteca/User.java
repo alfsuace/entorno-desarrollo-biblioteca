@@ -2,54 +2,66 @@ package com.alfsuace.biblioteca;
 
 public class User {
     //-id: Integer
-    //-libro: Libro
-    //-usuario: Usuario
-    //-fechaPrestamo: String
-    //-fechaDevolucion: String
+    //-nombre: String
+    //-apellidos: String
+    //-dni: String
+    //-telefono: Integer
+    //-direccion: String
+    //-población: String
 
-    private Integer id;
-    private Book book;
-    private User user;
-    private String borrowDate;
-    private String returnDate;
+    private String name;
+    private String surname;
+    private String dni;
+    private String telephone;
+    private String adress;
+    private String city;
 
-    public void setId (Integer id) {
-        this.id = id;
+
+    public void setName (String name) {
+        this.name = name;
     }
 
-    public Integer getId () {
-        return id;
+    public String getName () {
+        return name;
     }
 
-    public void setBook (Book book) {
-        this.book = book;
+    public void setSurname (String surname) {
+        this.surname = surname;
     }
 
-    public Book getBook () {
-        return book;
+    public String getSurname () {
+        return surname;
     }
 
-    public void setUser (User user) {
-        this.user = user;
+    public void setDni (String dni) {
+        this.dni = dni;
     }
 
-    public User getUser () {
-        return user;
+    public String getDni () {
+        return dni;
     }
 
-    public void setBorrowDate (String borrowDate) {
-        this.borrowDate = borrowDate;
+    public void setTelephone (String telephone) {
+        this.telephone = telephone;
     }
 
-    public String getBorrowDate () {
-        return borrowDate;
+    public String getTelephone () {
+        return telephone;
     }
 
-    public void setReturnDate (String returnDate) {
-        this.returnDate = returnDate;
+    public void setAdress (String adress) {
+        this.adress = adress;
     }
 
-    public String getReturnDate () {
-        return returnDate;
+    public String getAdress () {
+        return adress;
+    }
+
+    public void setCity (String city) {
+        this.city = city;
+    }
+
+    public String getCity () {
+        return city;
     }
 }
