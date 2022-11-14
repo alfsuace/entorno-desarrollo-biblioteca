@@ -51,4 +51,8 @@ public class Author {
     public String getBirthPlace () {
         return birthPlace;
     }
+
+    public String getFullName(){
+        return  name + " " + surname;
+    }
 }
